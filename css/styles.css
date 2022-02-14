@@ -1,0 +1,38 @@
+.social-links li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center!important;
+}
+
+.social-links li i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: -1px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ececec;
+    transition: .3s;
+}
+
+.div-social-links {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: right!important;
+}
+
+.servicio{
+    font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    .social-links {
+        text-align: center!important;
+        padding: 0px;
+    }
+}
+
